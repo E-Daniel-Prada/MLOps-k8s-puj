@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: airflow
-        image: <tu-dockerhub>/airflow-custom:latest
+        image: edanielprada/apache-airflow
         ports:
         - containerPort: 8080
 ---
